@@ -11,7 +11,6 @@
 class Constant : public EquationNode {
 public:
     Constant(double value);
-
     double execute() override;
 
 private:

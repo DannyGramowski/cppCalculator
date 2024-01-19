@@ -10,10 +10,11 @@
 
 class Add : public EquationNode {
 public:
-    Add(EquationNode left, EquationNode right);
+    Add(EquationNode* left, EquationNode* right);
+    ~Add();
 private:
-    EquationNode left;
-    EquationNode right;
+    EquationNode* left;
+    EquationNode* right;
 
     double execute() override;
 };

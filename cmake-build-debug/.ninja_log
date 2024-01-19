@@ -17,3 +17,7 @@
 471	633	7273966600787567	cppCalculator.exe	21cd0bfeb80fcefa
 3	376	7273966869156354	CMakeFiles/cppCalculator.dir/main.cpp.obj	e72caef463e20a86
 377	519	7273966870545445	cppCalculator.exe	21cd0bfeb80fcefa
+14	93	7273969968456059	CMakeFiles/cppCalculator.dir/equationNodes/Constant.cpp.obj	df6bc634a7965e72
+21	100	7273969968524664	CMakeFiles/cppCalculator.dir/equationNodes/Add.cpp.obj	6f8b84a0352c4d66
+5	434	7273969971869315	CMakeFiles/cppCalculator.dir/main.cpp.obj	e72caef463e20a86
+434	629	7273969973722587	cppCalculator.exe	21cd0bfeb80fcefa
