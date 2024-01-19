@@ -1,0 +1,3 @@
+C:/Users/dgram/CLionProjects/cppCalculator/cmake-build-debug/CMakeFiles/cppCalculator.dir
+C:/Users/dgram/CLionProjects/cppCalculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dgram/CLionProjects/cppCalculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
