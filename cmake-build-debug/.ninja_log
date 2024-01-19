@@ -1,2 +1,19 @@
 # ninja log v5
 8	284	7273934000543342	CMakeFiles/cppCalculator.dir/Calculator.cpp.obj	c1bb56b9473bee0d
+29	713	7273958975795114	CMakeFiles/cppCalculator.dir/Parser.cpp.obj	1a45edac29086deb
+29	777	7273960754182248	CMakeFiles/cppCalculator.dir/Parser.cpp.obj	1a45edac29086deb
+21	138	7273961004474548	CMakeFiles/cppCalculator.dir/equationNodes/EquationNode.cpp.obj	23cb06b6fdda7eca
+27	174	7273961004679680	CMakeFiles/cppCalculator.dir/equationNodes/Constant.cpp.obj	df6bc634a7965e72
+35	175	7273961004834803	CMakeFiles/cppCalculator.dir/equationNodes/Add.cpp.obj	6f8b84a0352c4d66
+2	532	7273961008616200	CMakeFiles/cppCalculator.dir/main.cpp.obj	e72caef463e20a86
+9	596	7273961009255920	CMakeFiles/cppCalculator.dir/Parser.cpp.obj	1a45edac29086deb
+4	605	7273961287762851	CMakeFiles/cppCalculator.dir/Equation.cpp.obj	34668e03152e3f86
+606	1207	7273961293751231	cppCalculator.exe	21cd0bfeb80fcefa
+4	404	7273961875138282	CMakeFiles/cppCalculator.dir/main.cpp.obj	e72caef463e20a86
+404	539	7273961876430396	cppCalculator.exe	21cd0bfeb80fcefa
+2	427	7273965867610556	CMakeFiles/cppCalculator.dir/main.cpp.obj	e72caef463e20a86
+427	561	7273965868880776	cppCalculator.exe	21cd0bfeb80fcefa
+3	470	7273966599247538	CMakeFiles/cppCalculator.dir/main.cpp.obj	e72caef463e20a86
+471	633	7273966600787567	cppCalculator.exe	21cd0bfeb80fcefa
+3	376	7273966869156354	CMakeFiles/cppCalculator.dir/main.cpp.obj	e72caef463e20a86
+377	519	7273966870545445	cppCalculator.exe	21cd0bfeb80fcefa

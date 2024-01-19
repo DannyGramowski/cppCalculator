@@ -7,12 +7,16 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
-#include "Parser.h"
 #include "equationNodes/EquationNode.h"
+
+struct VariableData {
+    std::unordered_map<char, double> variables;
+};
 
 class Equation {
 public:
     Equation(std::string originalInput, EquationNode head);
+    ~Equation();
     double getVariable(char c);
     void addVariable(char c);
     void setVariablesToValues(std::unordered_map<char, double> values);
@@ -21,10 +25,11 @@ public:
 
 private:
     std::string originalEquation;
-    std::unordered_map<char, double> variables;
     EquationNode head;
-
+    VariableData* variables;
 };
+
+
 
 
 #endif //CPPCALCULATOR_EQUATION_H

@@ -9,12 +9,6 @@ Add::Add(EquationNode left, EquationNode right) {
     this->right = right;
 }
 
-void Add::AddEquation(Equation equation) {
-    this->equation = equation;
-    left.AddEquation(equation);
-    right.AddEquation(equation);
-}
-
 double Add::execute() {
     return left.execute() + right.execute();
 }

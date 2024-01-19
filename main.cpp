@@ -4,7 +4,9 @@
 #include "equationNodes/Constant.h"
 
 int main() {
-    EquationNode c1 = Constant(5);
-    EquationNode node = Add(c1, Constant(3));
-    return 0;
+    EquationNode* node = new Add(Constant(5), Constant(3));
+    std::cout << node->execute() << std::endl;
+    EquationNode co = Constant(4);
+    std::cout << co.execute();
+    delete node;
 }

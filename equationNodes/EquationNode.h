@@ -6,15 +6,9 @@
 #define CPPCALCULATOR_EQUATIONNODE_H
 
 
-#include "../Equation.h"
-
 class EquationNode {
 public:
     virtual double execute();
-
-    virtual void AddEquation(Equation equation);
-protected:
-    Equation equation;
 };
 
 

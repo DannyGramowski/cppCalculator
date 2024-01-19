@@ -11,7 +11,6 @@
 class Add : public EquationNode {
 public:
     Add(EquationNode left, EquationNode right);
-    void AddEquation(Equation equation) override;
 private:
     EquationNode left;
     EquationNode right;

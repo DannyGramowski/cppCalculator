@@ -3,13 +3,7 @@
 //
 
 #include "EquationNode.h"
-#include "../Equation.h"
-
 
 double EquationNode::execute() {
     return 0;
-}
-
-void EquationNode::AddEquation(Equation equation) {
-    this->equation = equation;
 }
