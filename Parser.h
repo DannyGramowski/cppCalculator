@@ -11,6 +11,13 @@ class Parser {
     public:
         bool validEquation(const std::string& input);
         Equation* parseEquation(const std::string& input);
+private:
+    VariableData* variables;
+    EquationNode* parse(std::string input);
+    EquationNode* parseAddSub(std::string input);
+    EquationNode* parseMultDivide(std::string input);
+    EquationNode* parseExponent(std::string input);
+    EquationNode* parseNumber(std::string input, VariableData* variables);
 };
 
 

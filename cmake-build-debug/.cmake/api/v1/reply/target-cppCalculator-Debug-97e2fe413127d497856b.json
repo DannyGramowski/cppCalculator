@@ -58,7 +58,12 @@
 				5,
 				7,
 				9,
-				11
+				11,
+				13,
+				15,
+				17,
+				19,
+				21
 			]
 		}
 	],
@@ -101,7 +106,12 @@
 				5,
 				7,
 				9,
-				11
+				11,
+				13,
+				15,
+				17,
+				19,
+				21
 			]
 		},
 		{
@@ -113,7 +123,12 @@
 				6,
 				8,
 				10,
-				12
+				12,
+				14,
+				16,
+				18,
+				20,
+				22
 			]
 		}
 	],
@@ -189,6 +204,61 @@
 		{
 			"backtrace" : 1,
 			"path" : "equationNodes/Add.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "equationNodes/Variable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "equationNodes/Variable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "equationNodes/Subtract.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "equationNodes/Subtract.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "equationNodes/Multiply.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "equationNodes/Multiply.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "equationNodes/Divide.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "equationNodes/Divide.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "equationNodes/Exponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "equationNodes/Exponent.h",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -9,23 +9,29 @@
 #include <vector>
 #include "equationNodes/EquationNode.h"
 
-struct VariableData {
+class VariableData {
+public:
+    void addVariable(char c);
+    double getValue(char c);
+    void setValues(std::unordered_map<char, double> values);
+    void setValue(double value);
+    int getLength();
+private:
     std::unordered_map<char, double> variables;
 };
 
 class Equation {
 public:
-    Equation(std::string originalInput, EquationNode head);
+    Equation(std::string originalInput, EquationNode* head, VariableData* variables);
     ~Equation();
-    double getVariable(char c);
-    void addVariable(char c);
-    void setVariablesToValues(std::unordered_map<char, double> values);
-
     double calculate();
+    double calculate(double value);
+    double calculate(std::unordered_map<char, double> values);
+    void setVariables(std::unordered_map<char, double> values);
 
 private:
     std::string originalEquation;
-    EquationNode head;
+    EquationNode* head;
     VariableData* variables;
 };
 

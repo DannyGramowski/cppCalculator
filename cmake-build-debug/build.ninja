@@ -91,6 +91,36 @@ build CMakeFiles/cppCalculator.dir/equationNodes/Add.cpp.obj: CXX_COMPILER__cppC
   OBJECT_DIR = CMakeFiles\cppCalculator.dir
   OBJECT_FILE_DIR = CMakeFiles\cppCalculator.dir\equationNodes
 
+build CMakeFiles/cppCalculator.dir/equationNodes/Variable.cpp.obj: CXX_COMPILER__cppCalculator_unscanned_Debug C$:/Users/dgram/CLionProjects/cppCalculator/equationNodes/Variable.cpp || cmake_object_order_depends_target_cppCalculator
+  DEP_FILE = CMakeFiles\cppCalculator.dir\equationNodes\Variable.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCalculator.dir\equationNodes
+
+build CMakeFiles/cppCalculator.dir/equationNodes/Subtract.cpp.obj: CXX_COMPILER__cppCalculator_unscanned_Debug C$:/Users/dgram/CLionProjects/cppCalculator/equationNodes/Subtract.cpp || cmake_object_order_depends_target_cppCalculator
+  DEP_FILE = CMakeFiles\cppCalculator.dir\equationNodes\Subtract.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCalculator.dir\equationNodes
+
+build CMakeFiles/cppCalculator.dir/equationNodes/Multiply.cpp.obj: CXX_COMPILER__cppCalculator_unscanned_Debug C$:/Users/dgram/CLionProjects/cppCalculator/equationNodes/Multiply.cpp || cmake_object_order_depends_target_cppCalculator
+  DEP_FILE = CMakeFiles\cppCalculator.dir\equationNodes\Multiply.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCalculator.dir\equationNodes
+
+build CMakeFiles/cppCalculator.dir/equationNodes/Divide.cpp.obj: CXX_COMPILER__cppCalculator_unscanned_Debug C$:/Users/dgram/CLionProjects/cppCalculator/equationNodes/Divide.cpp || cmake_object_order_depends_target_cppCalculator
+  DEP_FILE = CMakeFiles\cppCalculator.dir\equationNodes\Divide.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCalculator.dir\equationNodes
+
+build CMakeFiles/cppCalculator.dir/equationNodes/Exponent.cpp.obj: CXX_COMPILER__cppCalculator_unscanned_Debug C$:/Users/dgram/CLionProjects/cppCalculator/equationNodes/Exponent.cpp || cmake_object_order_depends_target_cppCalculator
+  DEP_FILE = CMakeFiles\cppCalculator.dir\equationNodes\Exponent.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppCalculator.dir\equationNodes
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cppCalculator
@@ -99,7 +129,7 @@ build CMakeFiles/cppCalculator.dir/equationNodes/Add.cpp.obj: CXX_COMPILER__cppC
 #############################################
 # Link the executable cppCalculator.exe
 
-build cppCalculator.exe: CXX_EXECUTABLE_LINKER__cppCalculator_Debug CMakeFiles/cppCalculator.dir/main.cpp.obj CMakeFiles/cppCalculator.dir/Calculator.cpp.obj CMakeFiles/cppCalculator.dir/Parser.cpp.obj CMakeFiles/cppCalculator.dir/Equation.cpp.obj CMakeFiles/cppCalculator.dir/equationNodes/EquationNode.cpp.obj CMakeFiles/cppCalculator.dir/equationNodes/Constant.cpp.obj CMakeFiles/cppCalculator.dir/equationNodes/Add.cpp.obj
+build cppCalculator.exe: CXX_EXECUTABLE_LINKER__cppCalculator_Debug CMakeFiles/cppCalculator.dir/main.cpp.obj CMakeFiles/cppCalculator.dir/Calculator.cpp.obj CMakeFiles/cppCalculator.dir/Parser.cpp.obj CMakeFiles/cppCalculator.dir/Equation.cpp.obj CMakeFiles/cppCalculator.dir/equationNodes/EquationNode.cpp.obj CMakeFiles/cppCalculator.dir/equationNodes/Constant.cpp.obj CMakeFiles/cppCalculator.dir/equationNodes/Add.cpp.obj CMakeFiles/cppCalculator.dir/equationNodes/Variable.cpp.obj CMakeFiles/cppCalculator.dir/equationNodes/Subtract.cpp.obj CMakeFiles/cppCalculator.dir/equationNodes/Multiply.cpp.obj CMakeFiles/cppCalculator.dir/equationNodes/Divide.cpp.obj CMakeFiles/cppCalculator.dir/equationNodes/Exponent.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cppCalculator.dir

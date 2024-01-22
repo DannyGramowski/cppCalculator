@@ -3,35 +3,65 @@
 //
 
 #include "Equation.h"
+#include <stdexcept>
 
-Equation::Equation(std::string originalInput, EquationNode head) {
+
+Equation::Equation(std::string originalInput, EquationNode* head, VariableData* variables) {
     this->originalEquation = originalInput;
     this->head = head;
+    this->variables = variables;
 }
 
-double Equation::getVariable(char c) {
-    return variables->variables[c];
+double Equation::calculate() {
+    return head->execute();
 }
 
-void Equation::addVariable(char c) {
-    variables->variables[c] = 0;
+Equation::~Equation() {
+    delete head;
+    delete variables;
 }
 
-void Equation::setVariablesToValues(std::unordered_map<char, double> values) {
+double Equation::calculate(double value) {
+    variables->setValue(value);
+    return calculate();
+}
+
+double Equation::calculate(std::unordered_map<char, double> values) {
+    setVariables(values);
+    return calculate();
+}
+
+void Equation::setVariables(std::unordered_map<char, double> values) {
+    variables->setValues(values);
+
+}
+
+void VariableData::setValues(std::unordered_map<char, double> values) {
     std::vector<char> keys;
-    for(auto pair : variables->variables) {
+    for(auto pair : variables) {
         keys.push_back(pair.first);
     }
 
     for(char c : keys) {
-        variables->variables[c] = values[c];
+        variables[c] = values[c];
     }
 }
 
-double Equation::calculate() {
-    return head.execute();
+double VariableData::getValue(char c) {
+    return variables[c];
 }
 
-Equation::~Equation() {
-    delete variables;
+void VariableData::addVariable(char c) {
+    variables[c] = 0;
+}
+
+void VariableData::setValue(double value) {
+    if(variables.size() != 1) throw std::exception();
+    for(auto pair : variables) {
+        variables[pair.first] = value;
+    }
+}
+
+int VariableData::getLength() {
+    return variables.size();
 }
